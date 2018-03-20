@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat App using Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krunal-gadhiya/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "socket"
+  ],
+  "author": "krunal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krunal-gadhiya/chat-app/issues"
+  },
+  "homepage": "https://github.com/krunal-gadhiya/chat-app#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
+}

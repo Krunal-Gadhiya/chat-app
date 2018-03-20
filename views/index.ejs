@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sockets-Demo</title>
+    <style>
+      #statusBox{
+        background-color : #b30077;
+        color : white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sockets Demo</h1>
+    <input id='nametag' type='text' placeholder='Enter your name'>
+    <button id='sub'> Submit Name </button>
+    <input id='msgElem' type='text' placeholder='Enter your Messages here'>
+    <button id='send'> Send </button>
+    <div id='conn'></div>
+    <hr>
+    <div id='statusBox'>
+      <p>List of Online People</p>
+      <ul id='statusList'>
+      </ul>
+    </div>
+    <hr>
+    <div id='msgBox'></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat-app.js"></script>
+  </body>
+</html>
